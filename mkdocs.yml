@@ -1,0 +1,41 @@
+site_name: RiderX Documentation
+site_url: https://amanlalpuria.github.io/rider-backend/
+theme:
+  name: material
+  palette:
+    primary: deep orange
+    accent: amber
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/logo.png  # Optional: if you upload one
+  favicon: assets/favicon.ico  # Optional
+
+nav:
+  - 🏁 Introduction: docs/01-introduction.md
+  - ⚙️ Architecture: docs/02-system-architecture.md
+  - 📦 Tech Stack: docs/03-tech-stack.md
+  - 🔐 Auth & Security: docs/04-authentication.md
+  - 🧱 Modules Overview: docs/05-modules-overview.md
+  - 📱 User App: docs/06-user-app.md
+  - 🚖 Driver App: docs/07-driver-app.md
+  - 🧑‍💼 Admin Panel: docs/08-admin-panel.md
+  - 🛠 Dev Setup: docs/09-dev-setup.md
+  - 🔁 CI/CD: docs/10-ci-cd.md
+  - 🗄️ Database: docs/11-database-schema.md
+  - 📈 Monitoring: docs/12-monitoring.md
+  - 🧪 Testing: docs/13-testing.md
+  - 📱 API Design: docs/14-api-guidelines.md
+  - 🗂️ Environments: docs/15-env-config.md
+  - 📦 Packages: docs/16-packages.md
+  - 🔒 Security: docs/17-security.md
+  - 📦 Deployment: docs/18-deployment.md
+  - 🚀 Roadmap: docs/19-future-roadmap.md
+  - 📚 Glossary: docs/20-glossary.md
+  - ❓ FAQ: docs/21-faq.md
+  - 🤝 Contributing: docs/22-contributing.md
+  - 📄 License: docs/23-license.md
+  - 📇 Contact: docs/24-contact-and-team.md
+
+repo_url: https://github.com/amanlalpuria/rider-backend
+edit_uri: blob/main/docs/
