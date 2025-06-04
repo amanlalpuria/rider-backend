@@ -1,9 +1,9 @@
-site_name: RiderX Documentation
+site_name: Documentation
 site_url: https://amanlalpuria.github.io/rider-backend/
 theme:
   name: material
   palette:
-    primary: deep orange
+    primary: light orange
     accent: amber
   font:
     text: Roboto
@@ -12,30 +12,24 @@ theme:
   favicon: assets/favicon.ico  # Optional
 
 nav:
-  - 🏁 Introduction: docs/01-introduction.md
-  - ⚙️ Architecture: docs/02-system-architecture.md
-  - 📦 Tech Stack: docs/03-tech-stack.md
-  - 🔐 Auth & Security: docs/04-authentication.md
-  - 🧱 Modules Overview: docs/05-modules-overview.md
-  - 📱 User App: docs/06-user-app.md
-  - 🚖 Driver App: docs/07-driver-app.md
-  - 🧑‍💼 Admin Panel: docs/08-admin-panel.md
-  - 🛠 Dev Setup: docs/09-dev-setup.md
-  - 🔁 CI/CD: docs/10-ci-cd.md
-  - 🗄️ Database: docs/11-database-schema.md
-  - 📈 Monitoring: docs/12-monitoring.md
-  - 🧪 Testing: docs/13-testing.md
-  - 📱 API Design: docs/14-api-guidelines.md
-  - 🗂️ Environments: docs/15-env-config.md
-  - 📦 Packages: docs/16-packages.md
-  - 🔒 Security: docs/17-security.md
-  - 📦 Deployment: docs/18-deployment.md
-  - 🚀 Roadmap: docs/19-future-roadmap.md
-  - 📚 Glossary: docs/20-glossary.md
-  - ❓ FAQ: docs/21-faq.md
-  - 🤝 Contributing: docs/22-contributing.md
-  - 📄 License: docs/23-license.md
-  - 📇 Contact: docs/24-contact-and-team.md
+  - 🏁 Introduction: 01-executive-summary.md
+  - ⚙️ Architecture: 02-system-architecture.md
+  - 📦 Tech Stack: 03-tech-stack.md
+  - 📋 Feature List: 04-feature-list.md
+  - 🔄 User Flows: 05-user-flows.md
+  - 🗄️ Database Design: 06-database-design.md
+  - 📱 API Design: 07-api-design.md
+  - 🛠 DevOps & Infra: 08-devops-and-infra.md
+  - 🔐 Security Practices: 09-security-best-practices.md
+  - 🚀 Roadmap: 10-future-roadmap.md
+  - 🧑‍💼 Admin Panel: 11-admin-panel.md
+  - 🧪 Testing: 12-testing-strategy.md
+  - 🎨 Branding & UX: 13-branding-and-ux.md
+  - 🔧 API Guidelines: 14-api-design-guidelines.md
+  - 🔒 Data Privacy: 15-data-privacy.md
+  - 📈 Monitoring: 16-analytics-and-monitoring.md
+  - 🔁 CI/CD & Deployment: 17-deployment-and-ci-cd.md
+
 
 repo_url: https://github.com/amanlalpuria/rider-backend
 edit_uri: blob/main/docs/
