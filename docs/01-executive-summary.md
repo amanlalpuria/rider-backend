@@ -8,6 +8,7 @@
 
 RiderX is a unified, scalable ridesharing platform that offers:
 - 🚗 Car rides
+- 🚗 Auto Ride
 - 🛵 Bike rides
 - 🤝 Carpooling
 
